@@ -1,0 +1,104 @@
+.app {
+  /* display: flex; */
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  max-width: 700px;
+}
+/* @media screen and (max-width: 800px) {
+  .app {
+    width: 90%;
+  }
+} */
+
+h1 {
+  text-align: center;
+}
+
+.space-btw {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.full-width-input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.max-width {
+  width: 100%;
+}
+
+input {
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+input[type="text"]:focus {
+  /* box-shadow: 0 0 5px rgb(154, 197, 254); */
+  border: 1px solid #719ece;
+  box-shadow: 0 0 5px #719ece;
+}
+
+input[type="checkbox"] {
+  margin: auto;
+}
+
+.agreement {
+  display: flex;
+}
+
+.agree-box {
+  width: 30%;
+}
+
+.agree-statement {
+  width: 70%;
+}
+
+.box-label {
+  padding-top: 10px;
+}
+
+.small-reg {
+  background-color: #2277c8c9;
+  border-radius: 3px;
+  color: white;
+  padding: 2px 8px;
+  font-size: 70%;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #3366cc;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  height: 40px;
+  color: white;
+}
+
+.reg-btn {
+  background-color: #2277c8c9;
+}
+
+.sign-in-btn {
+  background-color: rgba(25, 163, 57, 0.903);
+}
